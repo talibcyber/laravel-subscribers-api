@@ -37,7 +37,7 @@ GET : /api/subscribers/{your prmary key id}
 Create new subscriber
 
 ```
-GET : POST : /api/subscribers
+POST : /api/subscribers
 BODY : {"name":"talib","email":"talib@gmail.com","state":"active"}
 ```
 
