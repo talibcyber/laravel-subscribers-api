@@ -20,76 +20,71 @@ REST API development using PHP Laravel 5.6
 
 
 
-# CRUD For Subscriber
+# CRUD For Subscribers
+
+List all subscribers
 
 ```
-
 GET : /api/subscribers
-
 ```
 
-```
+Get single subscriber
 
+```
 GET : /api/subscribers/{your prmary key id}
-
 ```
 
-```
+Create new subscriber
 
+```
 GET : POST : /api/subscribers
-
 BODY : {"name":"talib","email":"talib@gmail.com","state":"active"}
-
 ```
 
-```
+Update existing subscriber
 
+```
 PUT : /api/subscribers/{your prmary key id}
-
 BODY : {"name":"talib","email":"talib@gmail.com","state":"active"}
-
 ```
 
-```
+Delete signle subscriber
 
+```
 DELETE : /api/subscribers/{your prmary key id}
-
 ```
 
 
 # CRUD For Subscriber Fields
 
-```
+List all fields
 
+```
 GET : /api/subscriber-fields
-
 ```
 
-```
+Get single subscriber field
 
+```
 GET : /api/subscriber-fields/{your prmary key id}
-
 ```
 
+Create new field
 
 ```
-
 POST : /api/subscriber-fields
-
 BODY : {"title":"address","type":"string"}
-
 ```
 
-```
+Update existing subscriber field
 
+```
 PUT : /api/subscriber-fields/{your prmary key id}
-
 BODY : {"title":"address","type":"string"}
-
 ```
 
-```
+Delete signle field
 
+```
 DELETE : /api/subscriber-fields/{your prmary key id}
-
 ```
