@@ -1,6 +1,20 @@
 # laravel-subscribers-api
 REST API development using PHP Laravel 5.6
 
+# STEPS to install:
+
+1. Please make sure that you machine should have the composer and PHP version >= 7.0 
+2. Open cmd and go to the project directory 
+3. Run command --> composer update
+4. Copy .env.example with .env file 
+5. Run command:  php artisan key:generate
+6. Create DB --> subscriber_db (you can choose any name)
+7. configure your .env file for database configuration 
+8. Run command: php artisan migrate
+9. Run Command : php artisan db:seed
+10. Check you app using browser with http://localhost/project_directory/public/api/subscribers
+
+
 # CRUD For Subscriber
 
 GET : /api/subscribers
